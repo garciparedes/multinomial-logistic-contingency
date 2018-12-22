@@ -1,3 +1,16 @@
+
+# Created by https://www.gitignore.io/api/r,jupyternotebook
+# Edit at https://www.gitignore.io/?templates=r,jupyternotebook
+
+### JupyterNotebook ###
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Remove previous ipynb_checkpoints
+#   git rm -r .ipynb_checkpoints/
+#
+
+### R ###
 # History files
 .Rhistory
 .Rapp.history
@@ -32,5 +45,8 @@ vignettes/*.pdf
 *.utf8.md
 *.knit.md
 
-# Shiny token, see https://shiny.rstudio.com/articles/shinyapps.html
-rsconnect/
+### R.Bookdown Stack ###
+# R package: bookdown caching files
+/*_files/
+
+# End of https://www.gitignore.io/api/r,jupyternotebook
